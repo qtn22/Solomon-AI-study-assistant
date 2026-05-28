@@ -88,3 +88,28 @@ RAG chat bot/
    ```
    http://127.0.0.1:8000/docs
    ```
+3. Frontend setup
+
+  Open a new terminal and go to the frontend folder:
+  ```
+  cd frontend
+  ```
+  Install dependencies:
+  ```
+  npm install
+  ```
+  Run the frontend:
+  ```
+  npm run dev
+  ```
+  Frontend runs at:
+  ```
+  http://localhost:5173
+  ```
+  or another Vite port such as:
+  ```
+  http://localhost:5174
+  ```
+  ```
+  http://localhost:5175
+  ```

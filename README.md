@@ -113,3 +113,6 @@ RAG chat bot/
    ```
    http://localhost:5175
    ```
+## Screenshots
+- **Home Page**
+- <img width="1691" height="918" alt="image" src="https://github.com/user-attachments/assets/b9501682-adad-4005-8b4a-70b9241f7c68" />

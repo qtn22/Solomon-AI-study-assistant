@@ -1,1 +1,1 @@
-# Solomon-AI-study-assistant
+# 🤖Solomon-AI-study-assistant

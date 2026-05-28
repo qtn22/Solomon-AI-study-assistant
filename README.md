@@ -55,3 +55,36 @@ RAG chat bot/
     ├── package-lock.json
     └── vite.config.js
 ```
+## Quick Set up
+1. Clone the repository
+
+2. Backend set up
+   Go to the backend folder:
+   ```
+   cd backend
+   ```
+   Create and activate a virtual environment:
+   ```
+   python -m venv venv
+   venv\Scripts\activate.bat
+   ```
+   Install dependencies:
+   ```
+   pip install fastapi uvicorn python-multipart openai python-dotenv pypdf python-pptx
+   ```
+   Create a .env file inside the backend folder:
+   ```
+   OPENAI_API_KEY=your_api_key_here
+   ```
+   Run the backend:
+   ```
+   uvicorn main:app --reload
+   ```
+  Backend runs at:
+  ```
+  http://127.0.0.1:8000
+  ```
+  FastAPI docs:
+  ```
+  http://127.0.0.1:8000/docs
+  ```

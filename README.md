@@ -8,3 +8,50 @@ I came up with the idea for Solomon while studying for my final exams. During th
   Users can ask questions about their uploaded materials through the Chatbox. Solomon responds like a personal tutor, providing clear explanations that help students understand the material more easily.
 -  **🧠 Quiz Generator**:
   Users can generate a practice quiz to test what they have learned from their uploaded materials. The quiz includes 20 multiple-choice questions. After the user finishes and submits the quiz, Solomon automatically grades the answers and suggests topics the user need to review, helping them focus on areas they need more practice.
+## Project Structure
+RAG chat bot/
+├── backend/
+│   ├── __pycache__/
+│   ├── venv/
+│   ├── .env
+│   ├── chat_generator.py
+│   ├── document_loader.py
+│   ├── image.png
+│   ├── main.py
+│   ├── note_generator.py
+│   └── quiz_generator.py
+│
+└── frontend/
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    │   ├── assets/
+    │   ├── components/
+    │   │   ├── chatbox.css
+    │   │   ├── Chatbox.jsx
+    │   │   ├── FeatureCard.jsx
+    │   │   ├── navbar.css
+    │   │   ├── Navbar.jsx
+    │   │   ├── Sourcecard.jsx
+    │   │   └── Uploadbox.jsx
+    │   │
+    │   ├── pages/
+    │   │   ├── About.jsx
+    │   │   ├── chat.jsx
+    │   │   ├── Home.jsx
+    │   │   ├── quiz.css
+    │   │   ├── quiz.jsx
+    │   │   ├── start.jsx
+    │   │   └── Upload.jsx
+    │   │
+    │   ├── App.css
+    │   ├── App.jsx
+    │   ├── index.css
+    │   └── main.jsx
+    │
+    ├── .gitignore
+    ├── eslint.config.js
+    ├── index.html
+    ├── package.json
+    ├── package-lock.json
+    └── vite.config.js

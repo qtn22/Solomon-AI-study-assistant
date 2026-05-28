@@ -80,11 +80,11 @@ RAG chat bot/
    ```
    uvicorn main:app --reload
    ```
-  Backend runs at:
-  ```
-  http://127.0.0.1:8000
-  ```
-  FastAPI docs:
-  ```
-  http://127.0.0.1:8000/docs
-  ```
+   Backend runs at:
+   ```
+   http://127.0.0.1:8000
+   ```
+   FastAPI docs:
+   ```
+   http://127.0.0.1:8000/docs
+   ```

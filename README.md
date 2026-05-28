@@ -9,7 +9,7 @@ I came up with the idea for Solomon while studying for my final exams. During th
 -  **🧠 Quiz Generator**:
   Users can generate a practice quiz to test what they have learned from their uploaded materials. The quiz includes 20 multiple-choice questions. After the user finishes and submits the quiz, Solomon automatically grades the answers and suggests topics the user need to review, helping them focus on areas they need more practice.
 ## Project Structure
-'''
+```
 RAG chat bot/
 ├── backend/
 │   ├── __pycache__/
@@ -56,4 +56,4 @@ RAG chat bot/
     ├── package.json
     ├── package-lock.json
     └── vite.config.js
-'''
+```

@@ -1,0 +1,152 @@
+.quiz-page {
+  width: 100%;
+  padding: 64px 24px;
+  text-align: left;
+  overflow-x: hidden;
+}
+
+.quiz-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 40px;
+}
+
+.quiz-button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.quiz-card-list {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.quiz-card {
+  width: 100%;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 24px;
+  padding: 32px;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+  text-align: left;
+  overflow-x: hidden;
+}
+
+.quiz-question-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.quiz-question-text {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #334155;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.quiz-question-text p {
+  margin: 0;
+  text-align: left;
+}
+
+.quiz-choice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.quiz-choice {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  padding: 16px 16px 16px 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: white;
+  cursor: pointer;
+  text-align: left;
+  overflow: visible;
+}
+
+.quiz-choice input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.quiz-choice-letter {
+  font-weight: 700;
+  color: #0f172a;
+  flex-shrink: 0;
+  margin-left: 4px;
+}
+
+.quiz-choice-answer {
+  display: block;
+  text-align: left;
+  color: #334155;
+  font-size: 18px;
+  line-height: 1.6;
+  min-width: 0;
+  flex: 1;
+  overflow: visible;
+  white-space: normal;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+.quiz-choice-answer p {
+  margin: 0;
+  display: inline;
+}
+
+.quiz-choice-answer span {
+  display: inline;
+}
+.quiz-choice-answer .katex {
+  white-space: normal;
+}
+.quiz-choice-answer .katex-html {
+  white-space: normal;
+}
+.quiz-choice-selected {
+  border-color: #3b82f6;
+  background: #eff6ff;
+}
+
+.quiz-choice-correct {
+  border-color: #22c55e;
+  background: #f0fdf4;
+}
+
+.quiz-choice-wrong {
+  border-color: #ef4444;
+  background: #fef2f2;
+}
+
+.katex {
+  font-size: 1em;
+}
+
+.katex-display {
+  text-align: left;
+  margin: 0.5rem 0;
+}
+.quiz-page > div:first-child {
+  text-align: center;
+}

@@ -23,8 +23,6 @@ RAG chat bot/
 │   └── quiz_generator.py
 │
 └── frontend/
-    ├── node_modules/
-    ├── public/
     ├── src/
     │   ├── assets/
     │   ├── components/

@@ -57,7 +57,7 @@ RAG chat bot/
 ```
 ## Quick Set up
 1. Clone the repository
-
+   git clone
 2. Backend set up
    Go to the backend folder:
    ```

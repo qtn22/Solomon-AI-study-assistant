@@ -12,9 +12,6 @@ I came up with the idea for Solomon while studying for my final exams. During th
 ```
 RAG chat bot/
 ├── backend/
-│   ├── __pycache__/
-│   ├── venv/
-│   ├── .env
 │   ├── chat_generator.py
 │   ├── document_loader.py
 │   ├── image.png

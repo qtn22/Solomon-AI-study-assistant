@@ -38,6 +38,7 @@ RAG chat bot/
 2. Backend set up
    Go to the backend folder:
    ```
+   cd Solomon-AI-study-assistant
    cd backend
    ```
    Create and activate a virtual environment:
@@ -47,7 +48,7 @@ RAG chat bot/
    ```
    Install dependencies:
    ```
-   pip install fastapi uvicorn python-multipart openai python-dotenv pypdf python-pptx
+   pip install -r requirements.txt
    ```
    Create a .env file inside the backend folder:
    ```

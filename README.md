@@ -30,7 +30,7 @@ RAG chat bot/
 ├── .gitignore
 └── README.md
 ```
-## Quick Set up
+## Quick Setup
 1. Make sure Docker Desktop is installed and running. If not, use this link to download and sign up:
 [Docker Desktop](https://www.docker.com/get-started/)
 2. Clone the repository
@@ -50,6 +50,7 @@ RAG chat bot/
    ```
    docker compose up --build
    ```
+6. Open the website on Docker Desktop.
 ## Screenshots
 - **Home Page**
   <img width="1691" height="918" alt="image" src="https://github.com/user-attachments/assets/b9501682-adad-4005-8b4a-70b9241f7c68" />

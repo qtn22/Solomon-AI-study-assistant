@@ -36,68 +36,20 @@ RAG chat bot/
 1. Clone the repository
    ```
    git clone https://github.com/qtn22/Solomon-AI-study-assistant.git
-   ```
-2. Backend set up
-   Go to the backend folder:
-   ```
    cd Solomon-AI-study-assistant
-   cd backend
-   ```
-   Create and activate a virtual environment:
-   ```
-   python -m venv venv
-   venv\Scripts\activate.bat
-   ```
-   Install dependencies:
-   ```
-   pip install -r requirements.txt
    ```
    Create a .env file inside the backend folder:
    ```
-   notepad .env
+   notepad backend\.env
    ```
    Paste your API key inside the .env file
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
-   Run the backend:
-   ```
-   uvicorn main:app --reload
-   ```
-   Backend runs at:
-   ```
-   http://127.0.0.1:8000
-   ```
-   FastAPI docs:
-   ```
-   http://127.0.0.1:8000/docs
-   ```
-4. Frontend setup
-
-   Open a new terminal and go to the frontend folder:
-   ```
-   cd Solomon-AI-study-assistant
-   cd frontend
-   ```
-   Install dependencies:
-   ```
-   npm install
-   ```
-   Run the frontend:
-   ```
-   npm run dev
-   ```
-   Frontend runs at:
-   ```
-   http://localhost:5173
-   ```
-   or another Vite port such as:
-   ```
-   http://localhost:5174
-   ```
-   ```
-   http://localhost:5175
-   ```
+    Run the app with Docker:
+    ```
+    docker compose up --build
+    ```
 ## Screenshots
 - **Home Page**
   <img width="1691" height="918" alt="image" src="https://github.com/user-attachments/assets/b9501682-adad-4005-8b4a-70b9241f7c68" />

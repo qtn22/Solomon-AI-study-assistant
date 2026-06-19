@@ -21,30 +21,6 @@ RAG chat bot/
 │
 └── frontend/
     ├── src/
-    │   ├── assets/
-    │   ├── components/
-    │   │   ├── chatbox.css
-    │   │   ├── Chatbox.jsx
-    │   │   ├── FeatureCard.jsx
-    │   │   ├── navbar.css
-    │   │   ├── Navbar.jsx
-    │   │   ├── Sourcecard.jsx
-    │   │   └── Uploadbox.jsx
-    │   │
-    │   ├── pages/
-    │   │   ├── About.jsx
-    │   │   ├── chat.jsx
-    │   │   ├── Home.jsx
-    │   │   ├── quiz.css
-    │   │   ├── quiz.jsx
-    │   │   ├── start.jsx
-    │   │   └── Upload.jsx
-    │   │
-    │   ├── App.css
-    │   ├── App.jsx
-    │   ├── index.css
-    │   └── main.jsx
-    │
     ├── .gitignore
     ├── eslint.config.js
     ├── index.html

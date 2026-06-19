@@ -14,19 +14,21 @@ RAG chat bot/
 ├── backend/
 │   ├── chat_generator.py
 │   ├── document_loader.py
-│   ├── image.png
+│   ├── Dockerfile
 │   ├── main.py
 │   ├── note_generator.py
 │   └── quiz_generator.py
 │
 └── frontend/
 |   ├── src/
+|   ├── Dockerfile
 |   ├── .gitignore
 |   ├── eslint.config.js
 |   ├── index.html
 |   ├── package.json
 |   ├── package-lock.json
 |   └── vite.config.js
+├──docker-compose.yml
 ├── .gitignore
 └── README.md
 ```

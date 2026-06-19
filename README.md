@@ -51,6 +51,10 @@ RAG chat bot/
    ```
    Create a .env file inside the backend folder:
    ```
+   notepad .env
+   ```
+   Paste your API key inside the .env file
+   ```
    OPENAI_API_KEY=your_api_key_here
    ```
    Run the backend:
@@ -65,7 +69,7 @@ RAG chat bot/
    ```
    http://127.0.0.1:8000/docs
    ```
-3. Frontend setup
+4. Frontend setup
 
    Open a new terminal and go to the frontend folder:
    ```

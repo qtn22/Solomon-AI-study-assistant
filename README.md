@@ -33,7 +33,7 @@ RAG chat bot/
 ## Quick Set up
 1. Clone the repository
    ```
-   git clone https://github.com/thinhisme22-cell/Solomon-AI-study-assistant.git
+   git clone https://github.com/qtn22/Solomon-AI-study-assistant.git
    ```
 2. Backend set up
    Go to the backend folder:

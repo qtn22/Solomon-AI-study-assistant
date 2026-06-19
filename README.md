@@ -20,13 +20,15 @@ RAG chat bot/
 │   └── quiz_generator.py
 │
 └── frontend/
-    ├── src/
-    ├── .gitignore
-    ├── eslint.config.js
-    ├── index.html
-    ├── package.json
-    ├── package-lock.json
-    └── vite.config.js
+|   ├── src/
+|   ├── .gitignore
+|   ├── eslint.config.js
+|   ├── index.html
+|   ├── package.json
+|   ├── package-lock.json
+|   └── vite.config.js
+├── .gitignore
+└── README.md
 ```
 ## Quick Set up
 1. Clone the repository

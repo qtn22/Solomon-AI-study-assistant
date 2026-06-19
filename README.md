@@ -73,6 +73,7 @@ RAG chat bot/
 
    Open a new terminal and go to the frontend folder:
    ```
+   cd Solomon-AI-study-assistant
    cd frontend
    ```
    Install dependencies:

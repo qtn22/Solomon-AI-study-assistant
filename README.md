@@ -33,23 +33,23 @@ RAG chat bot/
 ## Quick Set up
 1. Make sure Docker Desktop is installed and running. If not, use this link to download and sign up:
 [Docker Desktop](https://www.docker.com/get-started/)
-1. Clone the repository
+2. Clone the repository
    ```
    git clone https://github.com/qtn22/Solomon-AI-study-assistant.git
    cd Solomon-AI-study-assistant
    ```
-   Create a .env file inside the backend folder:
+3. Create a .env file inside the backend folder:
    ```
    notepad backend\.env
    ```
-   Paste your API key inside the .env file
+4. Paste your API key inside the .env file
    ```
    OPENAI_API_KEY=your_api_key_here
    ```
-    Run the app with Docker:
-    ```
-    docker compose up --build
-    ```
+5. Run the app with Docker:
+   ```
+   docker compose up --build
+   ```
 ## Screenshots
 - **Home Page**
   <img width="1691" height="918" alt="image" src="https://github.com/user-attachments/assets/b9501682-adad-4005-8b4a-70b9241f7c68" />

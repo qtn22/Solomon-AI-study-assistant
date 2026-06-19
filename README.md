@@ -31,6 +31,10 @@ RAG chat bot/
 └── README.md
 ```
 ## Quick Set up
+1. Make sure Docker Desktop is installed and running. If not, use this link to download and sign up:
+   ```
+   [Docker Desktop] (https://www.docker.com/get-started/)
+   ```
 1. Clone the repository
    ```
    git clone https://github.com/qtn22/Solomon-AI-study-assistant.git

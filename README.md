@@ -28,7 +28,7 @@ RAG chat bot/
 |   ├── package.json
 |   ├── package-lock.json
 |   └── vite.config.js
-├──docker-compose.yml
+├── docker-compose.yml
 ├── .gitignore
 └── README.md
 ```
